@@ -2,5 +2,5 @@
 
 ## About Blog
 
-use the [Astro](https://astro.build) frame of [fuwari](https://github.com/saicaca/fuwari) theme.
+use the [fuwari](https://github.com/saicaca/fuwari) theme of [Astro](https://astro.build) frame.
 ::github{repo="saicaca/fuwari"}
