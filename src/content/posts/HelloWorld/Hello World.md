@@ -8,7 +8,7 @@ category: "new"
 draft: true
 ---
 
-嗨，我是 muyan 。
+嗨，我是 muyan。
 
 大概很久很久以前我就有想写 Blog 的「愿望」了，不过因为各种原因没能实践……
 
