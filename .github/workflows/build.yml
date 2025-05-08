@@ -12,8 +12,6 @@ concurrency:
 
 permissions:
   contents: read
-  pages: write 
-  id-token: write 
 
 jobs:
   check:
@@ -67,13 +65,3 @@ jobs:
 
       - name: Run Astro Build
         run: pnpm astro build
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
