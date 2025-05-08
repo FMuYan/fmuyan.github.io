@@ -5,7 +5,7 @@ description: "我的第一篇 Blog"
 image: "./face.png"
 tags: ["whisper"]
 category: "new"
-draft: true
+draft: false
 ---
 
 嗨，我是 muyan。
