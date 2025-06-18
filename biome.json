@@ -11,10 +11,7 @@
   },
   "formatter": {
     "enabled": true,
-    "indentStyle": "tab",
-    "organizeImports": {
-      "enabled": true
-    }
+    "indentStyle": "tab"
   },
   "linter": {
     "enabled": true,
