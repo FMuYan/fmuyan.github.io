@@ -32,6 +32,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "astro": "5.9.3",
     "astro-icon": "^1.1.5",
+    "biome": "^0.3.3",
     "hastscript": "^9.0.1",
     "katex": "^0.16.22",
     "markdown-it": "^14.1.0",
