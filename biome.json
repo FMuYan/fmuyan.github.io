@@ -7,29 +7,29 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignores": ["src/public/**/*", "dist/**/*", "node_modules/**/*"],
-    "includes": ["src/**/*.{js,ts,css,svelte,astro,vue}"]
+    "ignores": ["src/**/*.css", "src/public/**/*", "dist/**/*", "node_modules/**/*"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "tab"
   },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
   "javascript": {
     "formatter": {
-      "quoteStyle": "double",
-      "organizeImports": {
-        "enabled": true
-      }
-    },
-    "linter": {
-      "rules": {
-        "recommended": true
-      }
+      "quoteStyle": "double"
     }
   },
   "overrides": [
     {
-      "includes": ["*.svelte", "*.astro", "*.vue"],
+      "include": ["*.svelte", "*.astro", "*.vue"],
       "linter": {
         "rules": {
           "style": {
@@ -41,3 +41,4 @@
     }
   ]
 }
+
