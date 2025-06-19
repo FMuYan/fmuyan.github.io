@@ -7,21 +7,24 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["src/**/*.css", "src/public/**/*", "dist/**/*", "node_modules/**/*"]
+    "ignores": ["src/public/**/*", "dist/**/*", "node_modules/**/*"],
+    "includes": ["src/**/*.{js,ts,css,svelte,astro,vue}"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "tab"
   },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true
-    }
-  },
   "javascript": {
     "formatter": {
-      "quoteStyle": "double"
+      "quoteStyle": "double",
+      "organizeImports": {
+        "enabled": true
+      }
+    },
+    "linter": {
+      "rules": {
+        "recommended": true
+      }
     }
   },
   "overrides": [
